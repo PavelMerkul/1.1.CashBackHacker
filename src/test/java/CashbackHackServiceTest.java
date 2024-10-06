@@ -5,7 +5,7 @@ import static org.testng.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @org.testng.annotations.Test
-    void shouldCalculateCashback() {
+    public void shouldCalculateCashback() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
 
